@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="breeze.js">
+            <arguments>
+                <argument name="bundles" xsi:type="array">
+                    <item name="default" xsi:type="array">
+                        <item name="items" xsi:type="array">
+                            <item name="algoliaBundle" xsi:type="string">Algolia_AlgoliaSearch/internals/algoliaBundle.min.js</item>
+                            <item name="algoliaAnalytics" xsi:type="string">Algolia_AlgoliaSearch/internals/search-insights</item>
+                            <item name="productsHtml" xsi:type="string">Algolia_AlgoliaSearch/internals/template/autocomplete/products</item>
+                            <item name="pagesHtml" xsi:type="string">Algolia_AlgoliaSearch/internals/template/autocomplete/pages</item>
+                            <item name="categoriesHtml" xsi:type="string">Algolia_AlgoliaSearch/internals/template/autocomplete/categories</item>
+                            <item name="suggestionsHtml" xsi:type="string">Algolia_AlgoliaSearch/internals/template/autocomplete/suggestions</item>
+                            <item name="additionalHtml" xsi:type="string">Algolia_AlgoliaSearch/internals/template/autocomplete/additional-section</item>
+                            <item name="recommendProductsHtml" xsi:type="string">Algolia_AlgoliaSearch/internals/template/recommend/products</item>
+                            <item name="algoliaBreeze" xsi:type="string">Swissup_BreezeAlgoliasearch/js/breezemap</item>
+                            <item name="algoliaCommon" xsi:type="string">Algolia_AlgoliaSearch/internals/common</item>
+                            <item name="algoliaInsights" xsi:type="string">Algolia_AlgoliaSearch/insights</item>
+                            <item name="algoliaInstantSearch" xsi:type="string">Algolia_AlgoliaSearch/instantsearch</item>
+                            <item name="algoliaAutocomplete" xsi:type="string">Algolia_AlgoliaSearch/autocomplete</item>
+                            <item name="algoliaMixins" xsi:type="string">Swissup_BreezeAlgoliasearch/js/mixins</item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
