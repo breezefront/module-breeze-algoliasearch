@@ -25,7 +25,7 @@
             }
 
             if (form.find('input[name="queryid"]').length === 0) {
-                form.prepend('<input type="hidden" name="queryID" />');
+                form.prepend('<input type="hidden" name="queryID">');
             }
 
             form.find('input[name="queryID"]').val(queryID);
