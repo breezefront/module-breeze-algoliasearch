@@ -5,7 +5,7 @@
     "version": "1.0.1",
     "license": "OSL-3.0",
     "require": {
-        "algolia/algoliasearch-magento-2": "^3.0"
+        "algolia/algoliasearch-magento-2": "^3.14"
     },
     "autoload": {
         "files": [
