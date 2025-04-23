@@ -1,11 +1,12 @@
 {
     "name": "swissup/module-breeze-algoliasearch",
-    "description": "",
+    "description": "Algolia search integration with Breeze frontend",
     "type": "magento2-module",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "license": "OSL-3.0",
     "require": {
-        "algolia/algoliasearch-magento-2": "^3.14"
+        "algolia/algoliasearch-magento-2": "^3.15",
+        "swissup/module-breeze": "^2.22.3"
     },
     "autoload": {
         "files": [
