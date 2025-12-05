@@ -4,6 +4,9 @@
     <body>
         <referenceBlock name="breeze.js">
             <arguments>
+                <argument name="better_compatibility" xsi:type="array">
+                    <item name="Algolia_AlgoliaSearch" xsi:type="boolean">false</item>
+                </argument>
                 <argument name="ignore" xsi:type="array">
                     <item name="algoliaHooks" xsi:type="string">algoliaHooks</item>
                 </argument>
