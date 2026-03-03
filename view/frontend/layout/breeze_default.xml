@@ -5,14 +5,13 @@
         <referenceBlock name="breeze.js">
             <arguments>
                 <argument name="better_compatibility" xsi:type="array">
-                    <item name="Algolia_AlgoliaSearch" xsi:type="boolean">false</item>
+                    <item name="Algolia_AlgoliaSearch" xsi:type="boolean">true</item>
                 </argument>
                 <argument name="ignore" xsi:type="array">
                     <item name="algoliaHooks" xsi:type="string">algoliaHooks</item>
                 </argument>
                 <argument name="bundles" xsi:type="array">
-                    <item name="algolia" xsi:type="array">
-                        <item name="sort_order" xsi:type="number">90</item>
+                    <item name="dynamic" xsi:type="array">
                         <item name="items" xsi:type="array">
                             <item name="algoliaSearchLib" xsi:type="array">
                                 <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/lib/algolia-search.min.js</item>
@@ -38,56 +37,13 @@
                                 <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/lib/mustache.min.js</item>
                                 <item name="global" xsi:type="string">Mustache</item>
                             </item>
-                            <item name="algoliaBase64" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/internals/base64</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
+                            <item name="algoliaRecommendLib" xsi:type="array">
+                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/lib/recommend.min.js</item>
+                                <item name="global" xsi:type="string">@algolia/recommend</item>
                             </item>
-                            <item name="algoliaTemplateEngine" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/internals/template-engine</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaAutocompleteProductsHtml" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/template/autocomplete/products</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaAutocompleteCategoriesHtml" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/template/autocomplete/categories</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaAutocompletePagesHtml" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/template/autocomplete/pages</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaAutocompleteSuggestionsHtml" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/template/autocomplete/suggestions</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaAutocompleteAdditionalHtml" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/template/autocomplete/additional-section</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaCommon" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/internals/common</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaInsights" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/insights</item>
-                                <item name="global" xsi:type="string">algoliaInsights</item>
-                            </item>
-                            <item name="algoliaHooks" xsi:type="array">Algolia_AlgoliaSearch/js/hooks</item>
-                            <item name="algoliaAutocomplete" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/autocomplete</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaInstantSearch" xsi:type="array">
-                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/instantsearch</item>
-                                <item name="anonymous" xsi:type="boolean">true</item>
-                            </item>
-                            <item name="algoliaMixins" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezeAlgoliasearch/js/mixins</item>
-                                <item name="mixins" xsi:type="array">
-                                    <item name="addToCart" xsi:type="string">catalogAddToCart</item>
-                                </item>
+                            <item name="algoliaRecommendJsLib" xsi:type="array">
+                                <item name="path" xsi:type="string">Algolia_AlgoliaSearch/js/lib/recommend-js.min.js</item>
+                                <item name="global" xsi:type="string">@algolia/recommend-js</item>
                             </item>
                         </item>
                     </item>
